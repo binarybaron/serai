@@ -11,6 +11,7 @@ RUN rm -rf /etc/apt/sources.list.d/debian.sources && \
 RUN apt update && apt upgrade && apt install clang -y
 
 # Add the wasm toolchain
+RUN rustup component add rust-src
 RUN rustup target add wasm32-unknown-unknown
 
 FROM deterministic

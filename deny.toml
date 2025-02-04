@@ -7,8 +7,6 @@ db-urls = ["https://github.com/rustsec/advisory-db"]
 yanked = "deny"
 
 ignore = [
-  "RUSTSEC-2020-0168", # mach is unmaintained
-  "RUSTSEC-2021-0139", # https://github.com/serai-dex/serai/228
   "RUSTSEC-2022-0061", # https://github.com/serai-dex/serai/227
   "RUSTSEC-2024-0370", # proc-macro-error is unmaintained
   "RUSTSEC-2024-0384", # instant is unmaintained
@@ -123,7 +121,7 @@ wildcards = "warn"
 highlight = "all"
 deny = [
   { name = "serde_derive", version = ">=1.0.172, <1.0.185" },
-  { name = "hashbrown", version = ">=0.15" },
+  { name = "hashbrown", version = "=0.15.0" },
 ]
 
 [sources]

@@ -162,6 +162,7 @@ RUN apt install -y pkg-config clang
 RUN apt install -y make protobuf-compiler
 
 # Add the wasm toolchain
+RUN rustup component add rust-src
 RUN rustup target add wasm32-unknown-unknown
 
 {prelude}
