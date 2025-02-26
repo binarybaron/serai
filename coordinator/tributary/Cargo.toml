@@ -29,7 +29,7 @@ ciphersuite = { path = "../../crypto/ciphersuite", default-features = false, fea
 dkg = { path = "../../crypto/dkg", default-features = false, features = ["std"] }
 schnorr = { package = "schnorr-signatures", path = "../../crypto/schnorr", default-features = false, features = ["std"] }
 
-serai-client = { path = "../../substrate/client", default-features = false, features = ["serai", "borsh"] }
+serai-client = { path = "../../substrate/client", default-features = false, features = ["serai"] }
 
 serai-db = { path = "../../common/db" }
 serai-task = { path = "../../common/task", version = "0.1" }

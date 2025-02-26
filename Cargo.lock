@@ -8343,25 +8343,11 @@ dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec",
  "scale-info",
- "serai-coins-primitives",
  "serai-primitives",
  "sp-core",
  "sp-io",
  "sp-runtime",
  "sp-std",
-]
-
-[[package]]
-name = "serai-coins-primitives"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "parity-scale-codec",
- "scale-info",
- "serai-primitives",
- "serde",
- "sp-runtime",
- "zeroize",
 ]
 
 [[package]]
@@ -8555,20 +8541,11 @@ dependencies = [
  "serai-coins-pallet",
  "serai-dex-pallet",
  "serai-economic-security-pallet",
- "serai-emissions-primitives",
  "serai-genesis-liquidity-pallet",
  "serai-primitives",
  "serai-validator-sets-pallet",
- "serai-validator-sets-primitives",
  "sp-runtime",
  "sp-std",
-]
-
-[[package]]
-name = "serai-emissions-primitives"
-version = "0.1.0"
-dependencies = [
- "serai-primitives",
 ]
 
 [[package]]
@@ -8650,27 +8627,11 @@ dependencies = [
  "serai-coins-pallet",
  "serai-dex-pallet",
  "serai-economic-security-pallet",
- "serai-genesis-liquidity-primitives",
  "serai-primitives",
  "serai-validator-sets-pallet",
- "serai-validator-sets-primitives",
  "sp-application-crypto",
  "sp-core",
  "sp-std",
-]
-
-[[package]]
-name = "serai-genesis-liquidity-primitives"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "parity-scale-codec",
- "scale-info",
- "serai-primitives",
- "serai-validator-sets-primitives",
- "serde",
- "sp-std",
- "zeroize",
 ]
 
 [[package]]
@@ -8690,7 +8651,6 @@ dependencies = [
  "serai-economic-security-pallet",
  "serai-emissions-pallet",
  "serai-genesis-liquidity-pallet",
- "serai-in-instructions-primitives",
  "serai-primitives",
  "serai-validator-sets-pallet",
  "sp-application-crypto",
@@ -8698,22 +8658,6 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-std",
-]
-
-[[package]]
-name = "serai-in-instructions-primitives"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "parity-scale-codec",
- "scale-info",
- "serai-coins-primitives",
- "serai-primitives",
- "serde",
- "sp-application-crypto",
- "sp-runtime",
- "sp-std",
- "zeroize",
 ]
 
 [[package]]
@@ -9004,8 +8948,8 @@ dependencies = [
  "parity-scale-codec",
  "rand_core",
  "serai-db",
+ "serai-primitives",
  "serai-processor-messages",
- "serai-validator-sets-primitives",
 ]
 
 [[package]]
@@ -9023,8 +8967,8 @@ dependencies = [
  "rand_chacha",
  "rand_core",
  "serai-db",
+ "serai-primitives",
  "serai-processor-messages",
- "serai-validator-sets-primitives",
  "zeroize",
 ]
 
@@ -9036,11 +8980,8 @@ dependencies = [
  "dkg",
  "hex",
  "parity-scale-codec",
- "serai-coins-primitives",
  "serai-cosign",
- "serai-in-instructions-primitives",
  "serai-primitives",
- "serai-validator-sets-primitives",
 ]
 
 [[package]]
@@ -9051,7 +8992,6 @@ dependencies = [
  "group",
  "log",
  "parity-scale-codec",
- "serai-coins-primitives",
  "serai-primitives",
  "serai-task",
  "tokio",
@@ -9067,14 +9007,11 @@ dependencies = [
  "hex",
  "log",
  "parity-scale-codec",
- "serai-coins-primitives",
  "serai-db",
- "serai-in-instructions-primitives",
  "serai-primitives",
  "serai-processor-messages",
  "serai-processor-primitives",
  "serai-processor-scheduler-primitives",
- "serai-validator-sets-primitives",
  "tokio",
 ]
 
@@ -9103,14 +9040,12 @@ dependencies = [
  "rand_core",
  "serai-cosign",
  "serai-db",
- "serai-in-instructions-primitives",
  "serai-primitives",
  "serai-processor-frost-attempt-manager",
  "serai-processor-messages",
  "serai-processor-primitives",
  "serai-processor-scanner",
  "serai-processor-scheduler-primitives",
- "serai-validator-sets-primitives",
  "tokio",
  "zeroize",
 ]
@@ -9214,22 +9149,9 @@ dependencies = [
  "scale-info",
  "serai-in-instructions-pallet",
  "serai-primitives",
- "serai-signals-primitives",
  "serai-validator-sets-pallet",
  "sp-core",
  "sp-io",
-]
-
-[[package]]
-name = "serai-signals-primitives"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "parity-scale-codec",
- "scale-info",
- "serai-primitives",
- "serde",
- "zeroize",
 ]
 
 [[package]]
@@ -9259,7 +9181,6 @@ dependencies = [
  "serai-coins-pallet",
  "serai-dex-pallet",
  "serai-primitives",
- "serai-validator-sets-primitives",
  "serde",
  "sp-api",
  "sp-application-crypto",
@@ -9269,22 +9190,6 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std",
- "zeroize",
-]
-
-[[package]]
-name = "serai-validator-sets-primitives"
-version = "0.1.0"
-dependencies = [
- "borsh",
- "ciphersuite",
- "dkg",
- "parity-scale-codec",
- "scale-info",
- "serai-primitives",
- "serde",
- "sp-core",
  "sp-std",
  "zeroize",
 ]

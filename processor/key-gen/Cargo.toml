@@ -36,7 +36,7 @@ ciphersuite = { path = "../../crypto/ciphersuite", default-features = false, fea
 dkg = { package = "dkg", path = "../../crypto/dkg", default-features = false, features = ["std", "evrf-ristretto"] }
 
 # Substrate
-serai-validator-sets-primitives = { path = "../../substrate/validator-sets/primitives", default-features = false, features = ["std"] }
+serai-primitives = { path = "../../substrate/primitives", default-features = false, features = ["std"] }
 
 # Encoders
 scale = { package = "parity-scale-codec", version = "3", default-features = false, features = ["std"] }
