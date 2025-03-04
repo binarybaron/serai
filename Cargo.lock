@@ -9127,6 +9127,7 @@ dependencies = [
 name = "serai-runtime"
 version = "0.1.0"
 dependencies = [
+ "borsh",
  "frame-executive",
  "frame-support",
  "frame-system",
