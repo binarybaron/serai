@@ -8827,6 +8827,7 @@ dependencies = [
  "ciphersuite",
  "dkg",
  "parity-scale-codec",
+ "rand_core",
  "sp-core",
  "zeroize",
 ]
