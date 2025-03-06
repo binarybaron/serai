@@ -9169,31 +9169,17 @@ name = "serai-validator-sets-pallet"
 version = "0.1.0"
 dependencies = [
  "bitvec",
- "ciphersuite",
+ "borsh",
  "frame-support",
  "frame-system",
- "frost-schnorrkel",
- "modular-frost",
- "pallet-babe",
- "pallet-grandpa",
- "pallet-timestamp",
  "parity-scale-codec",
  "rand_core",
  "scale-info",
  "serai-coins-pallet",
- "serai-dex-pallet",
  "serai-primitives",
- "serde",
- "sp-api",
- "sp-application-crypto",
- "sp-consensus-babe",
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-session",
- "sp-staking",
- "sp-std",
- "zeroize",
 ]
 
 [[package]]
