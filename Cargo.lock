@@ -8340,7 +8340,6 @@ version = "0.1.0"
 dependencies = [
  "frame-support",
  "frame-system",
- "pallet-transaction-payment",
  "parity-scale-codec",
  "scale-info",
  "serai-primitives",
@@ -9134,6 +9133,7 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serai-abi",
+ "serai-coins-pallet",
  "sp-api",
  "sp-core",
  "sp-runtime",
